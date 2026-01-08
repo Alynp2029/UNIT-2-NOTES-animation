@@ -17,6 +17,23 @@
     transform: scale(0.5);
 }
 
+#skewed{
+    transform: skew(-80deg);
+
+}
+
+/* translate(x) moves elemnet right if "x" is positiev and left if "x" if positve.   translate(x.y) moves digonally.
+translate(o,y) moves the element vertically only.
+*/
+#translate{
+    transform: translate(0px, 40px);
+}
+
+
+#chain{
+    transform: translate(20px,70px) scale(0.5) rotate(-30deg);
+
+}
 
 
 
